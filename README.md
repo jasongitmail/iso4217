@@ -1,8 +1,9 @@
-# `@iso4217/json`
+# iso4217
 
 [ISO-4217][1] as a JSON.
 
 ## Features of `@iso4217/json`
+
 1. All the data from the original XML file is **already converted to JSON ahead of time**, – importing this package is actually **like importing a plain JSON file**.
 1. All the data is **guaranteed to be up-to-date** at all times:
     - the data in the original XML file [is maintained by the Swiss Association for Standardization][2] (SNV);
@@ -13,22 +14,16 @@
 
 ## Importing data
 
-### TypeScript (NodeJS):
+### ES6
 
 ```ts
 import { json } from "@iso4217/json";
 ```
 
-### JavaScript (CommonJS):
+### CommonJS
 
 ```ts
 const { json } = require("@iso4217/json");
-```
-
-### JavaScript (ESModules):
-
-```
-To be done
 ```
 
 ### JavaScript (browser, using `<script>` tag):
